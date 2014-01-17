@@ -16,24 +16,17 @@
 <body>
 <!-- TOP NAV -->
 <nav class="top-bar">
-	<div class="header-wrap">
-		<div id="header">
-			<div class="row">
-				<div class="small-1 columns">
-					<ul>
-						<li class="name"><a href="index.html"><img src="img/logo.gif" alt="logo" /></a></li>
-					</ul>
-				</div>
-				<div class="small-11 columns">
-					<ul class="main-nav">
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="http://crystaonia.tumblr.com/" target="blog">Blog</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	<ul class="title-area">
+		<li class="name"><a href="index.html"><img src="img/logo.gif" alt="logo" /></a></li>
+		<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	</ul>
+	<section class="top-bar-section">
+		<ul class="right">
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="http://crystaonia.tumblr.com/" target="blog">Blog</a></li>
+		</ul>
+	</section>
 </nav>
 <!-- CONTENT -->
 	<div id="main">
@@ -42,9 +35,21 @@
 					<h5>Welcome to my clear, well-structured site. Have a drink, stay awhile.</h5>
 			</div>
 		</div> -->
-		<div>
-			<p><h3>You can check out my <a href="portfolio.html">projects</a>, learn more <a href="about.html">about</a> me, or read my <a href="http://crystaonia.tumblr.com/" target="blog">thoughts</a> on design, language and technology.</h3></p>
+		<div class="row">
+			<div id="hr"></div>
 		</div>
+		<div>
+			<p><h6>This Portfolio Belongs To:</h6></p>
+		<div>
+			<h1>Crystal Brusch</h1>
+		</div>
+		<div class="row">
+			<div id="hr"></div>
+		</div>
+		<div>
+			<p><h3>You can check out my <a href="portfolio.html">portfolio</a>, learn more <a href="about.html">about</a> me, or read my <a href="http://crystaonia.tumblr.com/" target="blog">thoughts</a> on design, language and technology.</h3></p>
+		</div>
+		
 		<!--
 		<div id="displaygrid">
 		<div class="row">
@@ -210,8 +215,12 @@
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
+
+  <script src="js/foundation/foundation.reveal.js"></script>
   
-  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
   <!--
   
   <script src="js/foundation/foundation.js"></script>
