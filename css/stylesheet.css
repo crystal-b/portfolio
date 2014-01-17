@@ -9,26 +9,22 @@ li {
 }
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 10% !important;
+  line-height: 10% !important;
   position: relative;
   margin-bottom: 0; 
+  padding-bottom: 1%;
 }
 .top-bar li {
-  height: auto;
-  width: 100px;
-  float: left;
-  text-align: center;
-  padding: 0;
-  margin: 0;
 }
 .top-bar a {
   padding: 20px 0;
   text-decoration: none;
   display: block;
 }
-.top-bar li:hover, a:hover {
-  color: #cae081;
+.top-bar-section ul li:hover > a {
+  color: #cae081 !important;
+  background: transparent !important;
 }
 .top-bar li ul {
   display: none;
@@ -37,8 +33,10 @@ li {
   padding: 0;
 }
 .top-bar img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
+  margin-top: -20px;
+  margin-left: 20px;
 }
 .main-nav {
   margin-left: 10%;
@@ -106,18 +104,24 @@ button, .button {
   color: black;
 }*/
 #main {
-  position: fixed;
+  position: relative;
   line-height: normal;
   font-family: "Palatino Linotype", Palatino, serif;
-  padding: 4rem 4rem 4rem 4rem;
-  margin: 10rem 10rem 0 10rem;
+  padding: 2rem 4rem 2rem 4rem;
+  margin: 2rem 10rem 0 10rem;
   z-index: 1;
   text-align: center;
   background: rgba(175, 181, 203, 0.7);
   color: #000000;
 }
+#main h1 {
+  font-size: 4rem;
+}
 #main h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+#main h6 {
+  font-size: 1.5rem;
 }
 #main h3 a {
   border-bottom: .1rem dotted;
@@ -337,11 +341,17 @@ button, .button {
     display: none;
   }
   #main {
-    padding: 3rem 3rem 3rem 3rem;
-    margin: 6rem 5rem 0 5rem;
+    padding: 1rem 3rem 3rem 3rem;
+    margin: 0rem 5rem 0 5rem;
+  }
+  #main h1 { 
+    font-size: 3.5rem; 
   }
   #main h3 { 
-    font-size: 2em; 
+    font-size: 2rem; 
+  }
+  #main h6 { 
+    font-size: 1rem; 
   }
   #about {
     padding: 2rem 2rem 1rem 2rem;
@@ -356,6 +366,13 @@ button, .button {
   margin-top:-3.5rem;
   display: inline-block;
   }
+  #hr {
+  width: 92.5%;
+  height: 1px;
+  background: #34495e;
+  overflow: hidden;
+  margin: .5rem .5rem .5rem .5rem;
+  }
 }
 /* Smartphones - Portrait + Landscape */
 @media only screen and (min-device-width: 320px) and (max-width: 480px) {
@@ -366,12 +383,18 @@ button, .button {
     display: none;
   }
   #main {
-    top: 5.5rem;
+    top: 1rem;
     padding: 1rem 1rem 1rem 1rem;
     margin: 0 2rem 0 2rem;
   }
+  #main h1 { 
+    font-size: 2rem; 
+  }
   #main h3 { 
-    font-size: 1.5em; 
+    font-size: 1.2rem; 
+  }
+  #main h6 { 
+    font-size: 0.7rem; 
   }
   #about {
     padding: 1rem 1rem 0 1rem;
@@ -405,7 +428,10 @@ button, .button {
   font-size: .8rem;
   }
   #hr {
-  width: 80%;
-  padding: 0 0 0 0;
-  } 
+  width: 92.5%;
+  height: 1px;
+  background: #34495e;
+  overflow: hidden;
+  margin: .5rem .5rem .5rem .5rem;
+  }
 }
