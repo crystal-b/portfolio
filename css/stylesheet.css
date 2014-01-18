@@ -7,6 +7,36 @@ body, html {
 li {
   list-style: none;
 }
+#navi {
+  max-height: 100px;
+  width: 100%;
+  background: yellow;
+  padding-top: 1%;
+}
+#navi img {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 0 0 3% 0;
+}
+#navi ul {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1rem;
+  list-style: none;
+}
+#navi ul li {
+  display: inline;
+  position: relative;
+}
+#navi ul li a {
+  display: inline;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  color: #ffffff;
+  text-align: center;
+}
+#navi ul li:hover > a {
+  color: #cae081;
+}
 .top-bar {
   overflow: hidden;
   height: 10% !important;
@@ -376,7 +406,21 @@ button, .button {
 }
 /* Smartphones - Portrait + Landscape */
 @media only screen and (min-device-width: 320px) and (max-width: 480px) {
-  .main-nav {
+#navi {
+  max-height: 80px;
+  width: 100%;
+  background: yellow;
+  padding-top: 2%;
+}
+#navi img {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 0 0 3% 0;
+}
+#navi ul li a {
+  padding: 7px 10px 3px 10px;
+}
+.main-nav {
     display: none;
   }
   #side {
