@@ -1,9 +1,4 @@
-/*body {
-  background-color: #ecf0f1;
-}
-body, html {
-  height: 100%;
-}*/
+/*** CSS FOR PORTFOLIO WEBSITE ***/
 html { 
   background-color: #ecf0f1;
   /*background: url(../img/background.png) no-repeat center center fixed; 
@@ -23,6 +18,7 @@ hr {
 li {
   list-style: none;
 }
+
 /*** MAIN NAV ***/
 #navi {
   max-height: 80px;
@@ -99,46 +95,7 @@ li {
   float: right;
 }
 
-/*.button {
-  position: absolute;
-  font-family: helvetica, sans-serif;
-  font-weight: bold;
-  top: 2.5rem;
-}
-button, .button {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  color: #ecf0f1;
-  font-family: helvetica, sans-serif;
-  font-weight: bold;
-  line-height: normal;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #A4B6CB;
-  border-color: #50637a;
-}
-
-#main {
-  position: fixed;
-  top: 30vmin;
-  line-height: normal;
-  font-family: "Palatino Linotype", Palatino, serif;
-  padding: 10vmin 10vmin 10vmin 10vmin;
-  margin: 0 10vmin 0 10vmin;
-  z-index: 1;
-  text-align: center;
-  background: rgba(54, 255, 125, 0.6);
-  color: black;
-}*/
+/*** MAIN ***/
 #main {
   position: relative;
   line-height: normal;
@@ -162,8 +119,10 @@ button, .button {
 #main h3 a {
   border-bottom: .1rem dotted;
   font-family: "Palatino Linotype", Palatino, serif;
-  color: black;
+  color: #000000;
 }
+
+/*** ABOUT ***/
 #about {
   position: absolute; top: 8rem;
   font-family: "Palatino Linotype", Palatino, serif;
@@ -207,7 +166,7 @@ button, .button {
   text-align: center;
 }
 
-/* CONTENT */
+/*** SUB NAV ***/
 #side {
   position: fixed;
   background: #ecf0f1;
@@ -232,6 +191,8 @@ button, .button {
   font-size: .9rem;
   line-height: 150%;
 }
+
+/*** PORTFOLIO ***/
 #portfolio {
   margin: 5rem 0 7rem 0;
   font-family: "Palatino Linotype", Palatino, serif;
@@ -265,21 +226,8 @@ button, .button {
   margin-top:-3.5rem;
   display: inline-block;
 }
-/*
-#side {
-  top: 7.5rem;
-  padding-left: 1rem;
-  z-index: 1;
-}
-#side a {
-  color: #34495e;
-}
-#side li{
-  line-height: 200%;
-  font-size: .9rem;
-}
-*/
 
+/*** PROJECTS ***/
 #project {
   margin: 5rem 0 7rem 0;
   font-family: "Palatino Linotype", Palatino, serif;
@@ -315,10 +263,13 @@ button, .button {
   text-align: center;
   padding-bottom: 2rem;
 }
+
+/*** 404 ***/
 #error {
   padding-top: 2rem;
 }
 
+/*** BUTTONS ***/
 .btn {
   display: inline-block;
   padding: 10px 15px;
@@ -339,19 +290,16 @@ button, .button {
        -o-user-select: none;
           user-select: none;
 }
-
 .btn:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
 .btn:hover,
 .btn:focus {
   color: #ffffff;
   text-decoration: none;
 }
-
 .btn:active,
 .btn.active {
   background-image: none;
@@ -360,7 +308,7 @@ button, .button {
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-
+/*** FOOTER ***/
 #foot {
   width: 100%;
   margin: 0;
@@ -372,8 +320,43 @@ button, .button {
   z-index: 1;
 }
 
-/* Media Queries */
-/* iPads - Portrait + Landscape */
+/*** MEDIA QUERIES ***/
+/*** Large Screen Monitors ***/
+@media only screen (max-width: 1824px) {
+  #navi {
+  max-height: 100px;
+  padding-top: 2%;
+  }
+  #navi img {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 0 5% 0;
+  }
+  #navi ul {
+    font-size: 1.5rem;
+    margin-top: 2.5em;
+  }
+  #navi ul li a {
+    padding: 2em 2em 2em 2em;
+  }
+  #main {
+  padding: 3rem 9rem 2rem 9rem;
+  margin: 3rem 13rem 3rem 13rem;
+  }
+  #main h1 {
+    font-size: 5rem;
+  }
+  #main h3 {
+    font-size: 3.5rem;
+  }
+  #main h6 {
+    font-size: 2rem;
+  }
+  #main h3 a {
+    border-bottom: .5rem dotted;
+  }
+}
+/*** iPads - Portrait + Landscape ***/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   ul #side {
     display: none;
@@ -412,7 +395,7 @@ button, .button {
   margin: .5rem .5rem .5rem .5rem;
   }
 }
-/* Smartphones - Portrait + Landscape */
+/*** Smartphones - Portrait + Landscape ***/
 @media only screen and (min-device-width: 320px) and (max-width: 480px) {
 #navi {
   max-height: 50px;
