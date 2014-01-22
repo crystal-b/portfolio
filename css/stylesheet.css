@@ -145,8 +145,10 @@ li {
   font-family: "Palatino Linotype", Palatino, serif;
   color: black;
 }
-#about img {
-  width: 100%;
+#linkedin img {
+  max-height: 48px;
+  max-width: 48px;
+  margin: .5rem 0 1rem 0;
 }
 #displaygrid {
   padding-top: 2rem;
@@ -397,23 +399,23 @@ li {
 }
 /*** Smartphones - Portrait + Landscape ***/
 @media only screen and (min-device-width: 320px) and (max-width: 480px) {
-#navi {
-  max-height: 50px;
-  width: 100%;
-}
-#navi img {
-  max-width: 40px;
-  max-height: 40px;
-  margin: 4% 0 3% 0;
-}
-#navi ul {
-  font-size: .8rem;
-  margin-top: 2em;
-}
-#navi ul li a {
-  padding: 7px 10px 3px 10px;
-}
-.main-nav {
+  #navi {
+    max-height: 50px;
+    width: 100%;
+  }
+  #navi img {
+    max-width: 40px;
+    max-height: 40px;
+    margin: 4% 0 3% 0;
+  }
+  #navi ul {
+    font-size: .3rem;
+    margin-top: 1em;
+  }
+  #navi ul li a {
+    padding: 7px 7px 3px 7px;
+  }
+  .main-nav {
     display: none;
   }
   #side {
@@ -422,7 +424,7 @@ li {
   #main {
     top: 1rem;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 0 0 0;
   }
   #main h1 { 
     font-size: 2rem; 
