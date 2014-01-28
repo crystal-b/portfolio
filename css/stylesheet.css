@@ -447,7 +447,7 @@ li {
   padding: 0 .5rem 2rem .5rem;
   }
   #project p {
-  padding: 1rem .8rem 1rem 0;
+  padding: 0 .5rem .5rem 0.5rem;
   font-size: .8rem;
   }
   #project h3 {
