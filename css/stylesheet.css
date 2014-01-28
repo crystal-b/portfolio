@@ -241,13 +241,11 @@ li {
 }
 #project .row {
   background-color: #FFFFFF;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0 3rem 2rem 3rem;
 }
 #project img {
   width: 100%;
   text-align: center;
-  padding-bottom: 2rem;
 }
 #project h3 {
   font-family: helvetica, sans-serif;
@@ -262,6 +260,9 @@ li {
 }
 #project .large-4 p {
   padding: 1rem 0 0 0;
+}
+#project .large-6 p {
+  padding: .5rem 0 0 0;
 }
 #project .portrait {
   padding: 0 10rem 2rem 10rem;
