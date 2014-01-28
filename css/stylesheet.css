@@ -102,8 +102,8 @@ li {
   position: relative;
   line-height: normal;
   font-family: "Palatino Linotype", Palatino, serif;
-  padding: 2em 4em 2em 4em !important;
-  margin: 2em 10em 2em 10em !important;
+  padding: 2rem 4rem 2rem 4rem !important;
+  margin: 2rem 10rem 2rem 10rem !important;
   z-index: 1;
   text-align: center;
   background: rgba(175, 181, 203, 0.7);
@@ -111,13 +111,13 @@ li {
   -webkit-font-smoothing: antialiased;
 }
 #main h1 {
-  font-size: 4em !important;
+  font-size: 4rem !important;
 }
 #main h3 {
-  font-size: 2.3em !important;
+  font-size: 2.3rem !important;
 }
 #main h6 {
-  font-size: 1.5em !important;
+  font-size: 1.5rem !important;
 }
 #main h3 a {
   border-bottom: .1rem dotted !important;
@@ -391,8 +391,8 @@ li {
   }
   #navi img {
     max-width: 40px !important;
-    max-height: 40px;
-    margin: 4% 0 3% 0;
+    max-height: 40px !important;
+    margin: 4% 0 3% 0 !important;
   }
   #navi ul {
     font-size: .8rem !important;
@@ -408,22 +408,22 @@ li {
     display: none;
   }
   #main {
-    top: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 0 0 0 0;
+    top: 0 !important;
+    padding: 3rem 3rem 3rem 3rem !important;
+    margin: 0 0 0 0 !important;
   }
   #main h1 { 
-    font-size: 2rem; 
+    font-size: 2.5rem !important; 
   }
-  #main h3 { 
-    font-size: 1.2rem; 
+  #main p h3 { 
+    font-size: .8rem !important; 
   }
-  #main h6 { 
-    font-size: 0.7rem; 
+  #main p h6 { 
+    font-size: 0.5rem; 
   }
   #about {
     padding: 1rem 1rem 0 1rem;
-    margin: .0 0 0 0;
+    margin: 1rem 0 0 0;
     position: absolute; top: 2rem;
   }
   #about h3 {
@@ -463,7 +463,7 @@ li {
   padding: 1rem 0 1rem 0;
   }
    .long-slideshow-wrapper {
-  padding: 1rem 3rem 2.5rem 3rem;
+  padding: 1rem .5rem 2.5rem .5rem;
   width: 100%;
 }
   .button {
