@@ -276,8 +276,8 @@ li {
   padding: 1rem 0 0 .5rem;
 }
 .long-slideshow-wrapper {
-  padding: 1rem 0 0 1rem;
-  width: 65%;
+  padding: 1rem 0 0 .5rem;
+  width: 90%;
 }
 
 /*** 404 ***/
@@ -462,7 +462,7 @@ li {
   padding: 1rem 0 1rem 0;
   }
    .long-slideshow-wrapper {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 3rem 2.5rem 3rem;
   width: 100%;
 }
   .button {
