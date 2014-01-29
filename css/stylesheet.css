@@ -271,6 +271,14 @@ li {
   text-align: center;
   padding-bottom: 2rem;
 }
+.misc-wrapper #hr {
+  margin: 2rem 2rem 0 2rem;
+}
+.misc-wrapper p a{
+    color: #000000;
+    font-family: "Palatino Linotype", Palatino, serif;
+    border-bottom: .12rem dotted;
+  }
 
 /*** ORBIT SLIDESHOW ***/
 .slideshow-wrapper {
@@ -465,7 +473,10 @@ li {
    .long-slideshow-wrapper {
   padding: 1rem .5rem 2.5rem .5rem;
   width: 100%;
-}
+  }
+  li.clearing-featured-img {
+    max-width: 50% !important;
+  }
   .button {
     margin: 0 0 0 0;
   }
@@ -475,5 +486,9 @@ li {
   background: #34495e;
   overflow: hidden;
   margin: .5rem .5rem .5rem .5rem;
+  }
+  .misc-wrapper #hr {
+  width: 100%;
+  margin: 0 0 0 0;
   }
 }
