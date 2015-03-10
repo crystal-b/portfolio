@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!-- HEADER -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+  	<title>Crystal Brusch | Portfolio</title>
+  	<meta name="description" content="Crystal Brusch Portfolio">
+  	<meta name="author" content="Crystal Brusch">
+  	<link rel="stylesheet" href="../css/normalize.css">
+  	<link rel="stylesheet" href="../css/foundation.css">
+  	<link rel="stylesheet" href="../css/stylesheet.css">
+  	<script src="../js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<div id="navi">
+	<div class="row">
+		<div class="small-3 columns">
+			<a href="../index.html"><img src="../img/logo.gif" alt="logo" /></a>
+		</div>
+		<div class="small-9 columns">
+			<ul class="right">
+				<li class="current"><a href="../portfolio.html">Portfolio</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="http://crystaonia.tumblr.com/" target="blog">Blog</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- SUB NAV -->
+	<div class="row">
+		<ul id="side">
+			<div class="small-12 columns">
+				<li><a href="../portfolio.html#noise"><strong><h6>< Back to Projects</h6></strong></a></li>
+				<li>Other Electronics:</li>
+				<li><a href="lego.html">LEGO</a></li>
+			</div>
+		</ul>
+	</div>
+	
+<!-- CONTENT -->
+	<div id="project">
+		<div class="row">
+				<h3>Electronics: Noise City</h3>
+		</div>
+		<div class="row">
+			<div class="large-4 columns">
+				<p>My final project for Physical Computing was a noise map of New York. The name is a play on John Zorn’s Naked City.</p>
+				<p><strong>Brief:</strong> Noise is a part of city life. It is both a nuisance and a comfort. But, as major cities shift from slums to luxury playgrounds, a battle against noise is underway. In a recent lawsuit brought by a West Village resident against a bar/restaurant that is 80+ years old, the judge ruled in the bar’s favor. The judge’s argument stated, “In the modern world, some degree of noise, tension and discomfort is the inevitable concomitant of ­urban life.” I would like to highlight noise and let people experience the chaotic joy of many things producing sound by crashing into one another.</p>
+				<p><strong>Audience:</strong> People who appreciate noise or who can at least tolerate it. Also people interested in an immersive exploration of New York City.</p>
+			</div>
+			<div class="large-8 columns">
+				<div class="slideshow-wrapper">
+					<ul data-orbit data-options="slide_number_class:hide;">
+	  					<li><img src="../img/noise_sketch.jpg" alt="slide 1" /></li>
+					  	<li><img src="../img/noise_nyc.jpg" alt="slide 2" /></li>
+					  	<li><img src="../img/noise_workflow.jpg" alt="slide 3" /></li>
+					  	<li><img src="../img/noise_schematic.jpg" alt="slide 4" /></li>
+					</ul>
+				</div>
+			</div>
+				<div class="row">
+					<img src="../img/noise_piezo.jpg" alt="Breaking open a piezo sensors" />
+				</div>
+				<div class="row">
+					<p><strong>Testing:</strong> I was set on using strings because they would reference the streets of Manhattan as well as an instrument. The best looking solution, a stretch sensor, would not work because I wanted streets to be able to have different sounds at intersections with multiple avenues. Next, I tried breaking open the housing of a piezo sensor to make it more sensitive. The thinking was that vibration from a string would activate the sensor if the activation point was nearby. But, the piezo needed a mechanical vibration -- the string needed to touch the sensor to activate it.</p>
+				</div>
+				<div class="row">
+					<img src="../img/noise_sensor.jpg" alt="A soldered light sensor" />
+				</div>
+				<div class="row">
+					<p>My final solution was to use light sensors. A finger passing over the sensor while striking a string would alter the ambient light and activate the noise for that location.</p>
+				</div>
+				<div class="row">
+					<img src="../img/noise_board.jpg" alt="Laser cut board" />
+				</div>
+				<div class="row">
+					<p><strong>Fabrication:</strong> I used Illustrator and a laser cutter to create the Manhattan grid. The horizontal streets are all in 10 block segments, except downtown where things get very diagonal. I decided to keep things either horizontal or vertical there so it could still be playable. But, because Broadway is such a major street, I allowed that to be diagonal and just located sounds at places where it intersected with an avenue.</p>
+				</div>
+				<div class="row">
+					<img src="../img/noise_underneath.jpg" alt="Light sensors taped and hot glued into place" />
+				</div>
+				<div class="row">
+					<p>The string is for a Flamenco guitar. The light sensors are glued into holes coming up from underneath the board.</p>
+				</div>				
+				<div>
+					<a class="small button" href="../portfolio.html#noise">Back to Projects</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- JAVASCRIPT -->
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? '../js/vendor/zepto' : '../js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="../js/foundation.min.js"></script>
+  
+  <!--
+
+  <script src="js/foundation.min.js"></script>
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  <script>
+    $(document).foundation();
+  </script>
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60313440-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
