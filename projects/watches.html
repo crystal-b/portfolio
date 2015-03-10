@@ -19,7 +19,7 @@
 <div id="navi">
 	<div class="row">
 		<div class="small-3 columns">
-			<a href="index.html"><img src="../img/logo.gif" alt="logo" /></a>
+			<a href="../index.html"><img src="../img/logo.gif" alt="logo" /></a>
 		</div>
 		<div class="small-9 columns">
 			<ul class="right">
@@ -55,8 +55,7 @@
 			</div>
 			<div class="large-8 columns">
 				<div class="slideshow-wrapper">
-					<div class="preloader"></div>
-					<ul data-orbit="">
+					<ul data-orbit data-options="slide_number_class:hide;">
 	  					<li><img src="../img/clocks-prototype.jpg" alt="slide 1" />
 	    					<div class="orbit-caption">Buying guide wizard</div>
 	  					</li>
@@ -79,7 +78,6 @@
 	    					<div class="orbit-caption">Watches shop page</div>
 	  					</li>
 					</ul>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -88,11 +86,11 @@
 <!-- JAVASCRIPT -->
   <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  ('__proto__' in {} ? '../js/vendor/zepto' : '../js/vendor/jquery') +
   '.js><\/script>')
   </script>
   
-  <script src="js/foundation.min.js"></script>
+  <script src="../js/foundation.min.js"></script>
   
   <!--
 
